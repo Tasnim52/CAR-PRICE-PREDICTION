@@ -1,4 +1,4 @@
-pandas
-scikit-learn
 streamlit
-altair<5
+pandas
+numpy
+scikit-learn
