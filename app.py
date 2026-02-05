@@ -19,8 +19,8 @@ def load_assets():
 try:
     model_assets, ui_data = load_assets()
 
-    st.title("🚗 Smart Car Price Predictor")
-    st.markdown("### Internship Project - Bhakta Kavi Narsinh Mehta University")
+    st.title("🚗 Smart Car Price Predictor🚗")
+    st.markdown("This model analyzes patterns to estimate the price accurately 🚘📈”)
 
     # Hero Image
     st.image("https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1200",
@@ -72,3 +72,4 @@ try:
 
 except Exception as e:
     st.error(f"Required files not found or corrupted. Please run train_model.py first. Error: {e}")
+
