@@ -66,9 +66,9 @@ model_assets, ui_data = load_assets()
 # --- BRAND TO IMAGE MAPPING ---
 brand_images = {
     "Audi": "https://i.pinimg.com/1200x/37/a0/af/37a0aff3f6788360533662a493087491.jpg",
-    "BMW": "https://in.pinterest.com/pin/598064025558653376/",
-    "Tesla": "https://in.pinterest.com/pin/8585055536115091/",
-    "Mercedes": "https://in.pinterest.com/pin/734016439307968388/",
+    "BMW": "https://i.pinimg.com/736x/fe/d1/b3/fed1b3844d38e8b87fd8958f406fff70.jpg",
+    "Tesla": "https://i.pinimg.com/1200x/40/1b/06/401b0689972a2dcf9e0a27162c2cceb6.jpg",
+    "Mercedes": "https://i.pinimg.com/736x/ff/ba/d2/ffbad20eedaaa8f8ccbd8c81e26689dc.jpg",
     "Toyota": "https://i.pinimg.com/1200x/30/c3/df/30c3dfa3554219b4c378affe63ac52ee.jpg",
    "Honda": "https://i.pinimg.com/1200x/ed/a0/bd/eda0bd911e4c0a16c6ff6a7507db2cb1.jpg",
     "Hyundai": "https://i.pinimg.com/1200x/20/2d/3d/202d3dcca359714bb77606707880ab09.jpg",
@@ -133,6 +133,7 @@ if model_assets and ui_data:
 
 else:
     st.warning("⚠️ Files not found. Please run 'train_model.py' first.")
+
 
 
 
