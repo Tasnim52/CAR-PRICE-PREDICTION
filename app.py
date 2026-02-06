@@ -71,7 +71,7 @@ brand_images = {
     "Mercedes": "https://in.pinterest.com/pin/734016439307968388/",
     "Toyota": "https://i.pinimg.com/1200x/30/c3/df/30c3dfa3554219b4c378affe63ac52ee.jpg",
     "Honda": "https://i.pinimg.com/1200x/ed/a0/bd/eda0bd911e4c0a16c6ff6a7507db2cb1.jpg"
-    "Default": "https://i.pinimg.com/1200x/20/2d/3d/202d3dcca359714bb77606707880ab09.jpg"
+    "Hyundai": "https://i.pinimg.com/1200x/20/2d/3d/202d3dcca359714bb77606707880ab09.jpg"
     "Jeep": "https://i.pinimg.com/1200x/24/b5/2a/24b52a4c48da6105d3185c877131b85e.jpg"
     "Kia": "https://i.pinimg.com/1200x/d7/a4/16/d7a4164ca80ff793838ca6d7be22bf92.jpg"
     "MG": "https://i.pinimg.com/474x/c3/b1/33/c3b1336002d7b7e4b295d23a5b743ee8.jpg"
@@ -132,6 +132,7 @@ if model_assets and ui_data:
 
 else:
     st.warning("⚠️ Files not found. Please run 'train_model.py' first.")
+
 
 
 
