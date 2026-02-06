@@ -66,11 +66,20 @@ model_assets, ui_data = load_assets()
 # --- BRAND TO IMAGE MAPPING ---
 brand_images = {
     "Audi": "https://i.pinimg.com/1200x/37/a0/af/37a0aff3f6788360533662a493087491.jpg",
-    "BMW": "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=1000",
-    "Tesla": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?q=80&w=1000",
-    "Mercedes": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1000",
-    "Toyota": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=1000",
-    "Default": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1000"
+    "BMW": "https://in.pinterest.com/pin/598064025558653376/",
+    "Tesla": "https://in.pinterest.com/pin/8585055536115091/",
+    "Mercedes": "https://in.pinterest.com/pin/734016439307968388/",
+    "Toyota": "https://i.pinimg.com/1200x/30/c3/df/30c3dfa3554219b4c378affe63ac52ee.jpg",
+    "Honda": "https://i.pinimg.com/1200x/ed/a0/bd/eda0bd911e4c0a16c6ff6a7507db2cb1.jpg"
+    "Hyundai": "https://i.pinimg.com/1200x/20/2d/3d/202d3dcca359714bb77606707880ab09.jpg"
+    "Jeep": "https://i.pinimg.com/1200x/24/b5/2a/24b52a4c48da6105d3185c877131b85e.jpg"
+    "Kia": "https://i.pinimg.com/1200x/d7/a4/16/d7a4164ca80ff793838ca6d7be22bf92.jpg"
+    "MG": "https://i.pinimg.com/474x/c3/b1/33/c3b1336002d7b7e4b295d23a5b743ee8.jpg"
+    "Tata": "https://i.pinimg.com/736x/fd/18/93/fd1893229b8e348bca4370be40f7e972.jpg"
+    "Mahindra": "https://i.pinimg.com/736x/1a/eb/77/1aeb7730e12f4d7811c42f48609dc68e.jpg"
+    "Skoda": "https://i.pinimg.com/736x/c7/9a/fa/c79afa9243a13261cf1f6e78abe0997b.jpg"
+    "Toyota": "https://i.pinimg.com/1200x/5b/8d/b4/5b8db4bdb1a91e71d9a773b35d11585e.jpg"
+    "Wolkswagen": "https://i.pinimg.com/1200x/85/be/40/85be40ffaf4c95522be65c18e242e986.jpg"
 }
 
 if model_assets and ui_data:
@@ -123,5 +132,6 @@ if model_assets and ui_data:
 
 else:
     st.warning("⚠️ Files not found. Please run 'train_model.py' first.")
+
 
 
