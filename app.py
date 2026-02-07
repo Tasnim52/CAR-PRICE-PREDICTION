@@ -95,7 +95,7 @@ if model_assets and ui_data:
         trans = st.selectbox("Transmission", ui_data['transmissions'])
         mileage = st.number_input("Mileage (km)", 0, 500000, 40000)
         st.markdown("---")
-        predict_btn = st.button("🚀 Calculate Hybrid Prediction", use_container_width=True)
+        predict_btn = st.button("🚀 Calculate Price Prediction", use_container_width=True)
 
     with col2:
         img_url = brand_images.get(brand, brand_images["Default"])
@@ -132,3 +132,4 @@ if model_assets and ui_data:
             unsafe_allow_html=True)
 else:
     st.warning("⚠️ Files not found. Please run 'train_model.py' first.")
+
